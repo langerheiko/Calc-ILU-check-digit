@@ -28,7 +28,7 @@ function calcIluCheckDigit(ilu_str) {
     n -= n < 58 ? 48 : 55;
 
     // Numbers 11, 22, 33 are omitted.
-    n += ~~((n-1) / 10);
+    n += (n-1) / 10;
 
     // Sum of all numbers multiplied by weighting.
     sum += n << i;
