@@ -1,6 +1,6 @@
 {
   "name": "calc-ilu-check-digit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Calculate an ILU or BIC check digit according to ISO 6346 Freight containers — Coding, identification and marking.",
   "main": "calc_check_digit.js",
   "directories": {
@@ -23,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/langerheiko/Calc-ILU-check-digit/issues"
   },
-  "homepage": "https://github.com/langerheiko/Calc-ILU-check-digit#readme"
+  "homepage": "https://github.com/langerheiko/Calc-ILU-check-digit"
 }

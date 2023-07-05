@@ -11,7 +11,7 @@
  * @link https://www.iso.org/standard/83558.html
  * @link http://www.gvct.co.uk/2011/09/how-is-the-check-digit-of-a-container-calculated/
  */
-function calcIluCheckDigit(ilu_str) {
+export default function calcIluCheckDigit(ilu_str) {
   // Remove any non-alphanumeric characters and convert to upper-case.
   ilu_str = ilu_str.toUpperCase().replace(/[^A-Z0-9]+/g, '');
 
